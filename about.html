@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Ostara Massage - site web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="Images/logo_transparent_130x130.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">ACCEUIL</a></li>
+                    <li><a href="about.html">A PROPOS</a></li>
+                    <li><a href="prestation.html">PRESTATIONS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>A propos d'Ostara</h1>
+    </section>
+
+<!----A propos contenu---->
+<section class="a-propos">
+    <div class="row">
+        <div class="a-propos-column">
+            <h1>Qui suis-je ?</h1>
+            <p>Bien que j'aurais adoré m'appeler Ostara (second sabbat de l'année et équinoxe du 
+                printemps), votre humble sorcière bien-aimée répond au nom de Rachel.<br>
+                Je tire mes pratiques et mon énergie dans un mélange de culture celte et de 
+                paganisme nordique, principalement l'<b>Ásatrú</b>, dans lesquels je fonde 
+                la plupart de mes croyances.<br>
+                Dans le désir ancien de vouloir partager et soigner autrui par la magie 
+                et le touché <br>- vestiges de vies antérieures -
+                j'ai décidé de décrocher mon diplôme de praticienne en massage bien-être
+                afin d'allier détente du corps et rechargement de l'esprit.</p>
+                <p>Voila 5 ans maintenant que, suite à un virage à 360 dans ma vie, je me suis vue
+                    ouvrir les portes d'un monde parallèle. Un monde qu'au fond de moi
+                    je connaissais déjà bien.<br>
+                    La sorcellerie et le paganisme m'ont toujours attiré et font également partit 
+                    de l'histoire de ma famille. Mais jusque-là, je ne me sentais 
+                    pas légitime de pratiquer.<br>
+                    Aujourd'hui, la célébration des sabbats, les autels, les offrandes,
+                    les soins énergétiques et la pratique de la sorcellerie sont 
+                    devenus mon quotidien.
+                    </p>
+                <a href="" class="hero-btn green-btn">Contactez-moi</a>
+        </div>
+        <div class="a-propos-column">
+            <img src="Images/moi peace maison.png">
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="a-propos-column">
+            <img src="Images/foret nuit bleu crane os.png">
+        </div>
+        <div class="a-propos-column">
+            <h1>Croyances, magie et pratiques</h1>
+            <p>L'Ásatrú est une forme de religion scandinave très ancienne ("Forn Siðr" en vieux
+                norrois). Sa pratique consiste entre autre à la croyance des dieux nordiques, 
+                des 9 mondes de l'Yggdrasil et de tout ce que cela peut comporter.
+            </p>
+            <p>Mêlé à cela, la culture celte rentre également beaucoup dans mes pratiques
+                spirituelles. Cela donne un mélange complexe mais riche que je mets
+                à disposition dans chacune de mes prestations.
+            </p>
+            <p>Mon quotidien aujourd'hui est régi par des voyages spirituels et chamaniques
+                intenses parsemé de séances de méditations profondes, la connaissance de la botanique 
+                et des bienfaits de la nature, l'astrologie et ses repercussions 
+                sur le corps humain, les appels et les offrandes à mes guides et mes entités. 
+            </p>
+            <p>Mon culte s'étend également aux quatres éléments des points cardinaux et aux vertus
+                de leurs présence dans la vie de chacun. C'est donc tout naturellement que je 
+                les invites à chacune de mes prestations en invoquant la terre, l'air, le feu
+                et l'eau.
+            </p>
+            <p>Pour recevoir chaque client, le lieu ainsi que tout les outils utilisés - 
+                cristaux, bougies, encens, sel d'Epsom, huile de massage - sont intensément
+                nettoyés et purifiés à l'aide de sauge blanche sechée et de prières à un dieu 
+                nordique ou aux forces de la nature.
+            </p>
+                <a href="" class="hero-btn green-btn">Les prestations</a>
+        </div>
+        
+    </div>
+
+</section>
+
+
+
+<!----footer---->
+<section class="footer">
+    <h4>Ostara - Massage et Sorcellerie</h4>
+    <p>Massage californien, massage soin énergétique, tirage de tarot de Marseille, pendule.</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-envelope"></i>
+    </div>
+    <p>Fait avec <i class="fa fa-heart-o"></i> par Elijah V</p>
+</section>
+
+
+
+
+
+
+
+
+
+<!--------JavaScript for Toggle Menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
